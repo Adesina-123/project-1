@@ -1,0 +1,274 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.custom-h-100 {
+    height: 100vh;
+}
+.custom-button {
+    border-radius: 5px;
+    border: 1px solid #810b16;
+    background: #810b16;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+}
+.custom-button h5 {
+    font-size: 15px!important;
+    color: white;
+}
+.custom-button p, .custom-button h5 {
+    margin: 0px;
+    padding: 0px;
+}
+.custom-item {
+    border-radius: 0!important;
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    color: white;
+}
+
+.mt-10 {
+    margin-top: 6rem;
+} 
+.w-20 {
+    height: 20px;
+}
+.flip-img {
+    transform: scalex(-1);
+}
+.main {
+    width: 83%;
+    margin-left: 50px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    margin-left: 225px;
+}
+nav {
+    display: flex;
+    position: relative;
+    margin-left: 50px;
+}
+.search-box input[type=text] {
+    margin-left: 25px;
+    width: 228px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+
+}
+.search-box i {
+    position: absolute;
+    left: 31px;
+    font-size: 22px;
+    top: 4px;
+    color: #c1c1c1;
+}
+.ml-5 {
+    position: absolute;
+    margin-left: 40rem!important;
+    top: 15px;
+    font-size: 13px;
+    color: #ffc107;
+}
+.ray {
+    position: absolute;
+    margin-left: 40rem;
+    font-size: 15px;
+}
+.caret {
+    position: absolute;
+    margin-left: 46rem;
+    color: #c1c1c1;
+}
+.circle-9 {
+    position: absolute;
+    margin-left: 38rem;
+    font-size: 30px;
+}
+.m-0 {
+    border: 1px solid #c1c1c1;
+    right: 232px;
+    position: absolute;
+    font-size: 30px;
+    width: 31px;
+    border-left: 0;
+    border-bottom: 0px;
+    border-top: 0px;
+    color: #ffc107;
+}
+.life {
+    width: 8px;
+    height: 8px;
+    border: 1px solid red;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    right: 252px;
+    z-index: 1
+}
+section {
+    background-color: #f1f1f1;
+    height: 700px;
+    width: 100%px;
+    margin-top: 10px;
+}
+.plat {
+    text-transform: capitalize;
+    position: relative;
+}
+.d-flex, h3 {
+    top: 38px;
+    margin-left: 38px;
+    color: #ffc107;
+}
+.btn-lg {
+    border-radius: 50px;
+    margin-left: 649px;
+    font-size: 16px;
+    padding-right: 48px;
+    background-color: #ffc107;
+    color: white;
+
+}
+.game-790 {
+   position: absolute;
+    margin-top: 10px;
+    right: 108px;
+    font-size: 25px;
+    color: white;
+}
+.btn-sm {
+    position: absolute;
+    margin-left: 547px;
+    padding-left: 42px;
+    border-radius: 50px;
+    border-color: #ffc107;
+    color: #ffc107;
+    top: 9px;
+}
+.pink-name {
+    position: absolute;
+    top: 19px;
+    right: 337px;
+    color: #ffc107;
+}
+.mid-900 {
+       position: absolute;
+       padding-right: 124px;
+       text-align: center;
+       margin-left: 235px;
+       top: 12px;
+       border-top: 0px;
+       border-left: 0px;
+       border-right: 0px;
+       border-bottom: 1px solid #c1c1c1;
+       background-color: #f1f1f1;
+       height: 100%;
+}
+.h-800 {
+    position: absolute;
+    margin-left: 233px;
+    top: 17px;
+    z-index: 1;
+    font-size: 19px;
+    color: #c1c1c1;
+}
+.gear {
+    margin-top: 96px;
+    display: flex;
+}
+
+.card-k {
+    margin-top: 70px;
+    height: 510px;
+    width: 468px;
+    margin-left: 80px;
+}
+.card-l {
+    margin-top: 70px;
+    right: 112px;
+}
+
+.first-name {
+    padding: 14px;
+
+}
+.last-name {
+    padding: 14px;
+    left: 12px;
+    position: relative;
+}
+.email {
+    margin-top: 16px;
+    padding: 18px 239px 5px 9px;
+}
+.phone {
+
+    margin-top: 16px;
+    padding: 18px 239px 5px 9px;
+}
+.role {
+
+    margin-top: 16px;
+    padding: 18px 239px 5px 9px;
+}
+    
+.ml-4, .m-x {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #c1c1c1;
+    border-radius: 50px;
+    background-color: #c1c1c1;
+    text-align: center;
+    margin-top: 38px;
+    margin-left: 10.5rem!important;
+}
+.btn-p {
+    margin-left: 132px;
+    border-radius: 50px;
+    color: white;
+    background-color: #ffc107;
+}
+.alipha {
+    margin-top: 18px;
+    color: white;
+}
+.bin {
+    margin-top: 62px;
+}
+.log {
+    margin: 3px;
+    
+}
+.divide {
+    text-align: center;
+}
+.vector {
+    height: 63px;
+}
+.line {
+    width: 111%;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    right: 23px;
+
+}
+.nome {
+    margin-top: 30px;
+}
+@media screen and (max-width: 578px) {
+    .nav {
+       flex-direction: column; 
+    }
+}
